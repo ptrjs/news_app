@@ -1,0 +1,15 @@
+{
+    "modules": [
+        "news/news_main_navigation",
+        "news/news_dashboard",
+        "news/news_detail",
+        "news/news_discover",
+        "news/news_bookmark",
+        "news/news_profile"
+    ],
+    "module_directory_name": "module",
+    "experimental_mode": false,
+    "learning_mode": false,
+    "unfreezed": true,
+    "use_cubit": false
+}
