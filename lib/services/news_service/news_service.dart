@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 class NewsService {
   get() async {
     var response = await Dio().get(
-      "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=4e764de911fd49bdb528c3b6919ef67e",
+      "NEWSAPI",
       options: Options(
         headers: {
           "Content-Type": "application/json",
